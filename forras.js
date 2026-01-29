@@ -10,6 +10,6 @@ let a = 6;
 console.log("a:", a);
 console.log(a % 2 == 0 ? "Páros" : "Páratlan");
 
-console.log("Összeg [1,2,3]:", osszeg([1,2,3]));
+console.log("Összeg [3,2,1]:", osszeg([3,2,1]));
 
 console.log("Kész.");
