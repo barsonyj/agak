@@ -11,3 +11,7 @@ export function hamis() {
 export function igaz() {
     return true;
 }
+
+export function eszter() {
+    console.log("Eszter");
+}

@@ -1,4 +1,4 @@
-import { osszeg } from "./modul.js";
+import { eszter, osszeg } from "./modul.js";
 
 console.log("Első");
 
@@ -12,5 +12,7 @@ console.log(a % 2 == 0 ? "Páros" : "Páratlan");
 
 console.log("Összeg [1,2,3]:", osszeg([1,2,3]));
 console.log("Összeg [2,3,4]:", osszeg([2,3,4]));
+
+eszter();
 
 console.log("Kész.");
