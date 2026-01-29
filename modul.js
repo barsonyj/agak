@@ -7,3 +7,7 @@ export function osszeg(tomb) {
 export function hamis() {
     return false;
 }
+
+export function igaz() {
+    return true;
+}
