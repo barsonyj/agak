@@ -3,3 +3,7 @@ export function osszeg(tomb) {
     for (let x of tomb) e += x;
     return e;
 }
+
+export function hamis() {
+    return false;
+}
