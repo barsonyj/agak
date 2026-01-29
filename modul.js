@@ -13,5 +13,7 @@ export function igaz() {
 }
 
 export function eszter() {
-    console.log("Eszter");
+    let html = "";
+    for (let i=0; i<10; i++) html += "*";
+    console.log("Eszter: " + html);
 }
